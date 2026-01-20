@@ -41,7 +41,7 @@ const Form = ({ onEdit }) => {
   const ref = useRef();
 
   return (
-    <FormContainer>
+    <FormContainer ref={ref}>
       <InputArea>
         <Label>Nome</Label>
         <Input name="nome" />
